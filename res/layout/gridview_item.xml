@@ -5,12 +5,11 @@
     android:gravity="center_horizontal"
 	android:orientation="vertical" >
 
-    <ImageView
+    <com.launcherdemo1.IconImageView
 		android:id="@+id/appicon_imageview"
 		android:layout_width="100dp"
 		android:layout_height="100dp"
-		android:drawingCacheQuality="high"
-		android:scaleType="fitCenter" />
+		/>
 	<TextView
 	    style="@style/text_appname_style"
 	    android:id="@+id/appname_textview"
