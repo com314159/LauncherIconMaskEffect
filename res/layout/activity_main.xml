@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#FFAEF8B5"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/toandroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="进入android原生桌面" />
+
+    <GridView
+        android:id="@+id/app_gridview"
+        style="@style/gridview_app_list_style" >
+    </GridView>
+
+</LinearLayout>
